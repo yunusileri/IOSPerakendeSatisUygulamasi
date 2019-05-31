@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Barkod Tarayici View Controller-->
+        <scene sceneID="9fC-s3-SAb">
+            <objects>
+                <viewController storyboardIdentifier="barkodView" id="s5k-3S-5B9" customClass="BarkodTarayiciViewController" customModule="PrekandeSatisUygulamasiV3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gSC-ba-cNa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qkV-SN-qKl">
+                                <rect key="frame" x="62" y="208" width="251" height="251"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qkV-SN-qKl" firstAttribute="leading" secondItem="x2s-yb-vt4" secondAttribute="leading" constant="62" id="68l-ye-ayB"/>
+                            <constraint firstItem="qkV-SN-qKl" firstAttribute="centerY" secondItem="gSC-ba-cNa" secondAttribute="centerY" id="9Oj-5T-N3r"/>
+                            <constraint firstItem="qkV-SN-qKl" firstAttribute="centerX" secondItem="gSC-ba-cNa" secondAttribute="centerX" id="Mq2-JZ-PnJ"/>
+                            <constraint firstItem="qkV-SN-qKl" firstAttribute="top" secondItem="x2s-yb-vt4" secondAttribute="top" constant="188" id="N0P-ST-cDs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x2s-yb-vt4"/>
+                    </view>
+                    <connections>
+                        <outlet property="videoPreview" destination="qkV-SN-qKl" id="shx-bh-znb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ix8-l4-uzT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1538" y="-534"/>
+        </scene>
+    </scenes>
+</document>

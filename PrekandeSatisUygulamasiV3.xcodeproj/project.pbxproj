@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3801CF642292D19800593C34 /* tempSepet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3801CF632292D19800593C34 /* tempSepet.swift */; };
+		384C0D6A22943D6300E3163D /* Satislar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384C0D6922943D6300E3163D /* Satislar.swift */; };
+		38985944229C0B250088CCA3 /* SatislariListele.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38985943229C0B250088CCA3 /* SatislariListele.swift */; };
+		38985946229C15910088CCA3 /* SatisDetayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38985945229C15910088CCA3 /* SatisDetayCell.swift */; };
+		38A7F2A422956A8B00B8296F /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7F2A322956A8B00B8296F /* NotificationNameExtension.swift */; };
+		38A7F2AD22957A9100B8296F /* urunleriDuzenleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A7F2AC22957A9100B8296F /* urunleriDuzenleCell.swift */; };
+		6720D909229208540019A1DA /* SepetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720D908229208540019A1DA /* SepetViewController.swift */; };
+		6720D90B229208650019A1DA /* SepetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6720D90A229208650019A1DA /* SepetTableViewCell.swift */; };
+		6722131B22901734008643E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722131A22901734008643E5 /* AppDelegate.swift */; };
+		6722131D22901734008643E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722131C22901734008643E5 /* ViewController.swift */; };
+		6722132022901734008643E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6722131E22901734008643E5 /* Main.storyboard */; };
+		6722132222901736008643E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6722132122901736008643E5 /* Assets.xcassets */; };
+		6722132522901736008643E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6722132322901736008643E5 /* LaunchScreen.storyboard */; };
+		6722132D22901C0B008643E5 /* Urun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722132C22901C0B008643E5 /* Urun.swift */; };
+		6722132F22904644008643E5 /* UrunEkleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722132E22904644008643E5 /* UrunEkleController.swift */; };
+		6722133122904B4A008643E5 /* BarkodTarayiciController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722133022904B4A008643E5 /* BarkodTarayiciController.swift */; };
+		67221333229053BE008643E5 /* UrunSatisCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67221332229053BE008643E5 /* UrunSatisCell.swift */; };
+		6722133522905572008643E5 /* UrunSatisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6722133422905572008643E5 /* UrunSatisController.swift */; };
+		9771812D4D85927521863F42 /* Pods_PrekandeSatisUygulamasiV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B898A9AD4E29B5DF3FCC0700 /* Pods_PrekandeSatisUygulamasiV3.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3801CF632292D19800593C34 /* tempSepet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempSepet.swift; sourceTree = "<group>"; };
+		384C0D6922943D6300E3163D /* Satislar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Satislar.swift; sourceTree = "<group>"; };
+		38985943229C0B250088CCA3 /* SatislariListele.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatislariListele.swift; sourceTree = "<group>"; };
+		38985945229C15910088CCA3 /* SatisDetayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatisDetayCell.swift; sourceTree = "<group>"; };
+		38A7F2A322956A8B00B8296F /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		38A7F2AC22957A9100B8296F /* urunleriDuzenleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urunleriDuzenleCell.swift; sourceTree = "<group>"; };
+		5715E1AA10649C4F66FDB7FE /* Pods-PrekandeSatisUygulamasiV3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrekandeSatisUygulamasiV3.debug.xcconfig"; path = "Target Support Files/Pods-PrekandeSatisUygulamasiV3/Pods-PrekandeSatisUygulamasiV3.debug.xcconfig"; sourceTree = "<group>"; };
+		6720D908229208540019A1DA /* SepetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetViewController.swift; sourceTree = "<group>"; };
+		6720D90A229208650019A1DA /* SepetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetTableViewCell.swift; sourceTree = "<group>"; };
+		6722131722901734008643E5 /* PrekandeSatisUygulamasiV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrekandeSatisUygulamasiV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6722131A22901734008643E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6722131C22901734008643E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6722131F22901734008643E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6722132122901736008643E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6722132422901736008643E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6722132622901736008643E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6722132C22901C0B008643E5 /* Urun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urun.swift; sourceTree = "<group>"; };
+		6722132E22904644008643E5 /* UrunEkleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunEkleController.swift; sourceTree = "<group>"; };
+		6722133022904B4A008643E5 /* BarkodTarayiciController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkodTarayiciController.swift; sourceTree = "<group>"; };
+		67221332229053BE008643E5 /* UrunSatisCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunSatisCell.swift; sourceTree = "<group>"; };
+		6722133422905572008643E5 /* UrunSatisController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrunSatisController.swift; sourceTree = "<group>"; };
+		771BA088857C9E8802D0B656 /* Pods-PrekandeSatisUygulamasiV3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrekandeSatisUygulamasiV3.release.xcconfig"; path = "Target Support Files/Pods-PrekandeSatisUygulamasiV3/Pods-PrekandeSatisUygulamasiV3.release.xcconfig"; sourceTree = "<group>"; };
+		B898A9AD4E29B5DF3FCC0700 /* Pods_PrekandeSatisUygulamasiV3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrekandeSatisUygulamasiV3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6722131422901734008643E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9771812D4D85927521863F42 /* Pods_PrekandeSatisUygulamasiV3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A7F2A52295705800B8296F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6722131C22901734008643E5 /* ViewController.swift */,
+				6722132E22904644008643E5 /* UrunEkleController.swift */,
+				6722133022904B4A008643E5 /* BarkodTarayiciController.swift */,
+				6722133422905572008643E5 /* UrunSatisController.swift */,
+				6720D908229208540019A1DA /* SepetViewController.swift */,
+				38985943229C0B250088CCA3 /* SatislariListele.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38A7F2A62295708E00B8296F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6722132C22901C0B008643E5 /* Urun.swift */,
+				384C0D6922943D6300E3163D /* Satislar.swift */,
+				3801CF632292D19800593C34 /* tempSepet.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		38A7F2A7229570A100B8296F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				67221332229053BE008643E5 /* UrunSatisCell.swift */,
+				6720D90A229208650019A1DA /* SepetTableViewCell.swift */,
+				38A7F2AC22957A9100B8296F /* urunleriDuzenleCell.swift */,
+				38985945229C15910088CCA3 /* SatisDetayCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4DAB3700098CB6C806BB62C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5715E1AA10649C4F66FDB7FE /* Pods-PrekandeSatisUygulamasiV3.debug.xcconfig */,
+				771BA088857C9E8802D0B656 /* Pods-PrekandeSatisUygulamasiV3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6722130E22901734008643E5 = {
+			isa = PBXGroup;
+			children = (
+				6722131922901734008643E5 /* PrekandeSatisUygulamasiV3 */,
+				6722131822901734008643E5 /* Products */,
+				4DAB3700098CB6C806BB62C8 /* Pods */,
+				799FF6EBB597C87D9A4A3359 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6722131822901734008643E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6722131722901734008643E5 /* PrekandeSatisUygulamasiV3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6722131922901734008643E5 /* PrekandeSatisUygulamasiV3 */ = {
+			isa = PBXGroup;
+			children = (
+				38A7F2A7229570A100B8296F /* Cell */,
+				38A7F2A62295708E00B8296F /* Data */,
+				38A7F2A52295705800B8296F /* Controller */,
+				6722131A22901734008643E5 /* AppDelegate.swift */,
+				6722131E22901734008643E5 /* Main.storyboard */,
+				6722132122901736008643E5 /* Assets.xcassets */,
+				6722132322901736008643E5 /* LaunchScreen.storyboard */,
+				6722132622901736008643E5 /* Info.plist */,
+				38A7F2A322956A8B00B8296F /* NotificationNameExtension.swift */,
+			);
+			path = PrekandeSatisUygulamasiV3;
+			sourceTree = "<group>";
+		};
+		799FF6EBB597C87D9A4A3359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B898A9AD4E29B5DF3FCC0700 /* Pods_PrekandeSatisUygulamasiV3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6722131622901734008643E5 /* PrekandeSatisUygulamasiV3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6722132922901736008643E5 /* Build configuration list for PBXNativeTarget "PrekandeSatisUygulamasiV3" */;
+			buildPhases = (
+				E695F10B56B951879574F8D1 /* [CP] Check Pods Manifest.lock */,
+				6722131322901734008643E5 /* Sources */,
+				6722131422901734008643E5 /* Frameworks */,
+				6722131522901734008643E5 /* Resources */,
+				30DDF842C138DD9683761047 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrekandeSatisUygulamasiV3;
+			productName = PrekandeSatisUygulamasiV3;
+			productReference = 6722131722901734008643E5 /* PrekandeSatisUygulamasiV3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6722130F22901734008643E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yunusileri;
+				TargetAttributes = {
+					6722131622901734008643E5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6722131222901734008643E5 /* Build configuration list for PBXProject "PrekandeSatisUygulamasiV3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6722130E22901734008643E5;
+			productRefGroup = 6722131822901734008643E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6722131622901734008643E5 /* PrekandeSatisUygulamasiV3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6722131522901734008643E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6722132522901736008643E5 /* LaunchScreen.storyboard in Resources */,
+				6722132222901736008643E5 /* Assets.xcassets in Resources */,
+				6722132022901734008643E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30DDF842C138DD9683761047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrekandeSatisUygulamasiV3/Pods-PrekandeSatisUygulamasiV3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrekandeSatisUygulamasiV3/Pods-PrekandeSatisUygulamasiV3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E695F10B56B951879574F8D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrekandeSatisUygulamasiV3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6722131322901734008643E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6722132D22901C0B008643E5 /* Urun.swift in Sources */,
+				6722132F22904644008643E5 /* UrunEkleController.swift in Sources */,
+				6722133122904B4A008643E5 /* BarkodTarayiciController.swift in Sources */,
+				38A7F2A422956A8B00B8296F /* NotificationNameExtension.swift in Sources */,
+				3801CF642292D19800593C34 /* tempSepet.swift in Sources */,
+				6722131D22901734008643E5 /* ViewController.swift in Sources */,
+				6720D909229208540019A1DA /* SepetViewController.swift in Sources */,
+				38985946229C15910088CCA3 /* SatisDetayCell.swift in Sources */,
+				67221333229053BE008643E5 /* UrunSatisCell.swift in Sources */,
+				38A7F2AD22957A9100B8296F /* urunleriDuzenleCell.swift in Sources */,
+				6720D90B229208650019A1DA /* SepetTableViewCell.swift in Sources */,
+				6722133522905572008643E5 /* UrunSatisController.swift in Sources */,
+				6722131B22901734008643E5 /* AppDelegate.swift in Sources */,
+				384C0D6A22943D6300E3163D /* Satislar.swift in Sources */,
+				38985944229C0B250088CCA3 /* SatislariListele.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6722131E22901734008643E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6722131F22901734008643E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6722132322901736008643E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6722132422901736008643E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6722132722901736008643E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6722132822901736008643E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6722132A22901736008643E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5715E1AA10649C4F66FDB7FE /* Pods-PrekandeSatisUygulamasiV3.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDV6S623J8;
+				INFOPLIST_FILE = PrekandeSatisUygulamasiV3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusileri.PrekandeSatisUygulamasiV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6722132B22901736008643E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771BA088857C9E8802D0B656 /* Pods-PrekandeSatisUygulamasiV3.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HDV6S623J8;
+				INFOPLIST_FILE = PrekandeSatisUygulamasiV3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusileri.PrekandeSatisUygulamasiV3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6722131222901734008643E5 /* Build configuration list for PBXProject "PrekandeSatisUygulamasiV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6722132722901736008643E5 /* Debug */,
+				6722132822901736008643E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6722132922901736008643E5 /* Build configuration list for PBXNativeTarget "PrekandeSatisUygulamasiV3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6722132A22901736008643E5 /* Debug */,
+				6722132B22901736008643E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6722130F22901734008643E5 /* Project object */;
+}
